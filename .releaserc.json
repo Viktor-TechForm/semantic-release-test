@@ -8,7 +8,7 @@
     [
       "@semantic-release/exec",
       {
-        "publishCmd": "echo ${JSON.stringify(nextRelease)} && echo ${JSON.stringify(options)} && echo ${JSON.stringify(commits)}"
+        "publishCmd": "yarn npm publish --tag ${nextRelease.channel}"
       }
     ]
   ]
