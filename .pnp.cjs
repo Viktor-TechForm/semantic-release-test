@@ -19,14 +19,14 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
     ],
     "dependencyTreeRoots": [
       {
-        "name": "semantic-release-test",
+        "name": "@viktor-techform/semantic-release-test",
         "reference": "workspace:."
       }
     ],
     "enableTopLevelFallback": true,
     "ignorePatternData": "(^(?:\\.yarn\\/sdks(?:\\/(?!\\.{1,2}(?:\\/|$))(?:(?:(?!(?:^|\\/)\\.{1,2}(?:\\/|$)).)*?)|$))$)",
     "fallbackExclusionList": [
-      ["semantic-release-test", ["workspace:."]]
+      ["@viktor-techform/semantic-release-test", ["workspace:."]]
     ],
     "fallbackPool": [
     ],
@@ -35,7 +35,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         [null, {
           "packageLocation": "./",
           "packageDependencies": [
-            ["@semantic-release/exec", "virtual:c5721e7827d9ebfeb27662d1511352fae12fdb8c66f970dea34a4b8e88bbc53fc17ed0cbaad350b50c11cc0153a499612d79dc143ed011f3a439ee014cbc27ea#npm:6.0.3"],
+            ["@semantic-release/exec", "virtual:80854a3f90557bb632b124b1a26fdd2c9de451768f3de6d08095ea50954cfeafad3fd74b2a758067ae337e25a6f50458a0c31f51edd216f43df4611596b74b11#npm:6.0.3"],
             ["semantic-release", "npm:19.0.2"]
           ],
           "linkType": "SOFT",
@@ -579,10 +579,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           ],
           "linkType": "SOFT",
         }],
-        ["virtual:c5721e7827d9ebfeb27662d1511352fae12fdb8c66f970dea34a4b8e88bbc53fc17ed0cbaad350b50c11cc0153a499612d79dc143ed011f3a439ee014cbc27ea#npm:6.0.3", {
-          "packageLocation": "./.yarn/__virtual__/@semantic-release-exec-virtual-733d7794d2/0/cache/@semantic-release-exec-npm-6.0.3-bc09293452-c6ad2f02ff.zip/node_modules/@semantic-release/exec/",
+        ["virtual:80854a3f90557bb632b124b1a26fdd2c9de451768f3de6d08095ea50954cfeafad3fd74b2a758067ae337e25a6f50458a0c31f51edd216f43df4611596b74b11#npm:6.0.3", {
+          "packageLocation": "./.yarn/__virtual__/@semantic-release-exec-virtual-c3b62ce870/0/cache/@semantic-release-exec-npm-6.0.3-bc09293452-c6ad2f02ff.zip/node_modules/@semantic-release/exec/",
           "packageDependencies": [
-            ["@semantic-release/exec", "virtual:c5721e7827d9ebfeb27662d1511352fae12fdb8c66f970dea34a4b8e88bbc53fc17ed0cbaad350b50c11cc0153a499612d79dc143ed011f3a439ee014cbc27ea#npm:6.0.3"],
+            ["@semantic-release/exec", "virtual:80854a3f90557bb632b124b1a26fdd2c9de451768f3de6d08095ea50954cfeafad3fd74b2a758067ae337e25a6f50458a0c31f51edd216f43df4611596b74b11#npm:6.0.3"],
             ["@semantic-release/error", "npm:3.0.0"],
             ["@types/semantic-release", null],
             ["aggregate-error", "npm:3.1.0"],
@@ -754,6 +754,17 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/retry", "npm:0.12.1"]
           ],
           "linkType": "HARD",
+        }]
+      ]],
+      ["@viktor-techform/semantic-release-test", [
+        ["workspace:.", {
+          "packageLocation": "./",
+          "packageDependencies": [
+            ["@viktor-techform/semantic-release-test", "workspace:."],
+            ["@semantic-release/exec", "virtual:80854a3f90557bb632b124b1a26fdd2c9de451768f3de6d08095ea50954cfeafad3fd74b2a758067ae337e25a6f50458a0c31f51edd216f43df4611596b74b11#npm:6.0.3"],
+            ["semantic-release", "npm:19.0.2"]
+          ],
+          "linkType": "SOFT",
         }]
       ]],
       ["JSONStream", [
@@ -4240,17 +4251,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["yargs", "npm:16.2.0"]
           ],
           "linkType": "HARD",
-        }]
-      ]],
-      ["semantic-release-test", [
-        ["workspace:.", {
-          "packageLocation": "./",
-          "packageDependencies": [
-            ["semantic-release-test", "workspace:."],
-            ["@semantic-release/exec", "virtual:c5721e7827d9ebfeb27662d1511352fae12fdb8c66f970dea34a4b8e88bbc53fc17ed0cbaad350b50c11cc0153a499612d79dc143ed011f3a439ee014cbc27ea#npm:6.0.3"],
-            ["semantic-release", "npm:19.0.2"]
-          ],
-          "linkType": "SOFT",
         }]
       ]],
       ["semver", [
