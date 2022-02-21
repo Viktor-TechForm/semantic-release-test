@@ -1,0 +1,21 @@
+{
+  "name": "@viktor-techform/semantic-release-test",
+  "packageManager": "yarn@3.1.1",
+  "dependencies": {
+    "@semantic-release/exec": "^6.0.3",
+    "semantic-release": "^19.0.2"
+  },
+  "scripts": {
+    "build": "echo ...built",
+    "release": "semantic-release"
+  },
+  "author": "Viktor-Techform",
+  "main": "theCode/index.js",
+  "homepage": "https://github.com/Viktor-TechForm/semantic-release-test",
+  "files": [
+    "theCode"
+  ],
+  "engines": {
+    "node": ">=16"
+  }
+}
